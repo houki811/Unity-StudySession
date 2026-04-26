@@ -4,7 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - EndScreen: {instanceID: 0}
+  - EndScreen: {fileID: 2747113231660706446, guid: f119187b3e751e04dae8334175973d8d, type: 3}
+  - PlayerObject: {fileID: 7830268402840214908, guid: c804eccbd1b204646a6f8ee8e338e4a6, type: 3}
+  - PlayerObjectGameOver: {fileID: 7830268402840214908, guid: 9b7946f30d1a2774dafb349581b458f2, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

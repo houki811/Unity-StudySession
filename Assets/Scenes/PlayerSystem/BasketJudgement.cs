@@ -27,7 +27,7 @@ public class BasketJudgement : MonoBehaviour
             {
                 ScreenSummon script = scoreText.GetComponent<ScreenSummon>();
                 TextMeshProUGUI getScoreText = Instantiate(Text, CanvasTransform);
-                getScoreText.transform.position = new Vector3(collision.transform.position.x + 0.8f, -2.2f, 0);
+                getScoreText.transform.position = new Vector3(collision.transform.position.x + 0.6f, -3.1f, 0);
                 script.score += 100;
             }
             Destroy(collision.gameObject);
